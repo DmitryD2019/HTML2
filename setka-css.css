@@ -1,0 +1,41 @@
+/* clearfix */
+.row:after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+[class*=col-] {
+    float: left;
+    padding: 0;
+}
+.container {
+    border: 2px solid white;
+	max-width: 1200px;
+	margin: 0 auto;
+}
+.card {
+    border: 3px solid grey;
+    background-color: green;
+	height:100px;
+	margin: 10px;
+}
+.col-4 {
+    width: 33.333%;
+}
+#dd {
+    height:350px;  
+}
+.col-8 {
+    width: 66.667%;
+}
+#gg {  
+    margin: -241 10px;
+}
+#kk {  
+    margin: -116 10px;
+}
+.slider {
+    margin-top: -20px;
+}
