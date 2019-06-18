@@ -1,0 +1,44 @@
+html {
+    height: 100%;
+    margin: 0;
+}
+body {
+    height: 100%;
+    margin: 0;
+    background: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation: over-and-back 5.5s infinite; 
+}
+canvas {
+    border: 6px solid white;
+    background: grey;
+    animation: shake 6.0s infinite;
+}
+/*
+@keyframes shake {
+    10%, 90% {
+        transform: translate3d(-10px, 4px, 0);
+    }
+      20%, 80% {
+        transform: translate3d(2px, 0, 0);
+    }
+      30%, 50%, 70% {
+        transform: translate3d(-20px, -5px, 0);
+    }
+      40%, 60% {
+        transform: translate3d(14px, 0, 0);
+    }
+}
+ 
+@keyframes over-and-back {
+    from {
+      background-color: black;
+      transform: translate(0);
+    }
+    to {
+        background-color: darkslategrey;
+        transform: translate(0);
+    }
+}
